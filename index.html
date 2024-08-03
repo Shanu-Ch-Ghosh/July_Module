@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="project-intro">
+      <h1 id="project-heading">Weather Api</h1>
+      <button id="fetch-data-button">Fetch Data</button>
+    </div>
+
+    <div id="container">
+      <div class="location-container">
+        <div class="heading">
+          <h1 id="welcome"></h1>
+          <h3 id="locPara"></h3>
+        </div>
+
+        <div class="latLong">
+          <h2 id="lat"></h2>
+          <h2 id="long"></h2>
+        </div>
+
+        <div class="mapContainer">
+          <iframe
+            id="map"
+            src=""
+            width="360"
+            height="270"
+            frameborder="0"
+            style="border: 0; display: none"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="dataHeading">
+        <h2 id="weatherdata"></h2>
+      </div>
+
+      <div class="data-container">
+        <div id="weather-data1">
+          <h2 id="loc"></h2>
+          <h2 id="tempr"></h2>
+          <h2 id="humidityP"></h2>
+        </div>
+
+        <div id="weather-data2">
+          <h2 id="windSpeed"></h2>
+          <h2 id="pressureH"></h2>
+          <h2 id="feels"></h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
